@@ -1,9 +1,86 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>BAPC 2020</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BAPC 2020</title>
+    <link rel="stylesheet" href="css\common.css">
+    <link rel="stylesheet" href="css\home.css">
 </head>
+
 <body>
-<h1>Hello World!</h1>
+    <header>
+        <div class="logo-container">
+            <img src="img\bapc logo.png" alt="">
+            <div id="date-uni-container">
+                <div id="date">October 17th 2020</div>
+                <img id="uni-logo" src="img\tudelft-logo.svg" alt="">
+            </div>
+        </div>
+    </header>
+    <div class="nav-bar" id="page-nav">
+        <a id="home" href="/home.html">HOME</a>
+        <a class="menu-item" href="#">CONTEST</a>
+        <div class="dropdown">
+            <a class="menu-item" href="#">SPONSORS<span style="font-size: 15px;">&#9660;</span></a>
+            <div class="dropdown-content">
+                <a href="#">Crusty Crab</a>
+                <a href="#">Good Burger</a>
+                <a href="#">Chum Bucket</a>
+            </div>
+        </div>
+        <a class="menu-item" href="/problems">PROBLEMS</a>
+        <a class="menu-item" href="/results">RESULTS</a>
+        <a class="menu-item" href="/location">LOCATION</a>
+        <a class="menu-item" href="/organisation">ORGANISATION</a>
+        <a class="menu-item" href="/contact">CONTACT</a>
+        <a id="burger-icon" href="#" onclick="toggleNavBarMenu()">&#9776;</a>
+    </div>
+    
+    <div class="content">
+
+        <div class="column">
+            <h1>About the BAPC</h1>
+            <p>The Benelux Algorithm Programming Contest (BAPC) is a contest in which about 50 teams from leading
+                universities in Luxemburg, Belgium and the Netherlands are served a series of algorithmic
+                problems/puzzles. The goal of each team is to solve as many puzzles as possible within the set time
+                limit. Solutions need to be programmed out on a computer and can be submitted to a semi-automated
+                judging system, after which the solution is checked. The teams that have solved the most puzzles at the
+                end of the contest qualify for the Northwestern European Regional Contest (NWERC). In this regional
+                competition the teams can qualify themselves for a ticket to the International Collegiate Programming
+                Contest (ICPC), also known as the World Finals.</p>
+            <hr>
+            <h1>Sign-Up</h1>
+            <p>You can sign up until ... . To sign up follow this <a href="">link</a></p>
+            <hr>
+            <h1>Previous contests</h1>
+            <ul>
+                <li><a href="">2019</a></li>
+                <li><a href="">2018</a></li>
+                <li><a href="">2017</a></li>
+                <li><a href="">2016</a></li>
+                <li><a href="">2015</a></li>
+                <li><a href="">2014</a></li>
+                <li><a href="">2013</a></li>
+                <li><a href="">2012</a></li>
+                <li><a href="">2011</a></li>
+                <li><a href="">2010</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <footer></footer>
+    <script>
+        function toggleNavBarMenu() {
+            var x = document.getElementById("page-nav");
+            if (x.className === "nav-bar") {
+                x.className = "nav-bar responsive";
+            } else {
+                x.className = "nav-bar";
+            }
+        }
+    </script>
 </body>
+
 </html>
