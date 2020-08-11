@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>BAPC 2020</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Benelux Algorithm Programming Contest 2020.">
+
+    <base href="<%= htmlWebpackPlugin.options.buildName && !htmlWebpackPlugin.options.static ? `/${htmlWebpackPlugin.options.buildName}/` : '/' %>">
+
+    <%- include fragments/icons -%>
+    <%- include fragments/critical-css -%>
+    <%- include fragments/critical-js -%>
+  </head>
+  <body>
+    <bapc-app appTitle="BAPC 2020"></bapc-app>
+    <noscript>
+      Please enable JavaScript to view this website.
+    </noscript>
+    <!-- Built with love using PWA Webpack Starter Kit -->
+  </body>
+</html>
