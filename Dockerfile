@@ -5,4 +5,4 @@ RUN npm install
 RUN npm run build
 
 FROM wisvch/nginx
-COPY --from=builder /src/build/ /srv/bapc-2020
+COPY --from=builder /src/build/ /srv/
