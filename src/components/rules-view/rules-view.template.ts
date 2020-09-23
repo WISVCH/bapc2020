@@ -9,7 +9,7 @@ export default function template(this: BapcView) {
       <h3>Changelog</h3>
 <p>The changelog tracks changes from 1st of August 2020 onwards.</p>
 <ul>
-  <li>[02-09-2020] First version officially online.</li>
+  <li>[01-08-2020] First version officially online.</li>
   <li>[23-09-2020] Updated contest date, updated rules disclaimer.</li>
 </ul>
 
