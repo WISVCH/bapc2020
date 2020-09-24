@@ -5,16 +5,20 @@ export default function template(this: BapcView) {
   return html`
     <section>
       <h1>Rules</h1>
-      <p>The rules are subject.</p>
+      <p>The rules are subject. Keep in mind that, because of the pandemic, it is possible that the format of the contest will change depending on what measures are implemented.</p>
       <h3>Changelog</h3>
 <p>The changelog tracks changes from 1st of August 2020 onwards.</p>
+<ul>
+  <li>[01-08-2020] First version officially online.</li>
+  <li>[23-09-2020] Updated contest date, updated rules disclaimer.</li>
+</ul>
 
 <h3 >General Rules</h3>
 
 <h4 >Definitions</h4>
 
 <ul>
-  <li>BAPC: The Benelux Algorithm Programming Contest 2020. It will take place on October 17th, 2020 and is hosted by the Delft University of Technology.</li>
+  <li>BAPC: The Benelux Algorithm Programming Contest 2020. It will take place on December 12th, 2020 and is hosted by the Delft University of Technology.</li>
   <li>Organisation: the members of the organising committee.</li>
   <li>Website: The website, maintained by the organisation and available at <a href="https://2020.bapc.eu/">2020.bapc.eu</a>.</li>
   <li>Jury: The group of people responsible for making the problems and checking the solutions submitted by the participants.</li>
