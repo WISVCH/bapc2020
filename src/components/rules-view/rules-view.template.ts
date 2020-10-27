@@ -12,7 +12,8 @@ export default function template(this: BapcView) {
   <li>[01-08-2020] First version officially online.</li>
   <li>[23-09-2020] Updated contest date, updated rules disclaimer.</li>
 </ul>
-
+</section>
+<section>
 <h3 >General Rules</h3>
 
 <h4 >Definitions</h4>
@@ -39,7 +40,8 @@ export default function template(this: BapcView) {
   <li>The organisation will appoint runners who will support the organisation, tech and jury during the contest.</li>
   <li>All crew members will be recognisable during the BAPC by their shirt and/or badge.</li>
 </ul>
-
+</section>
+<section>
 <h3 >Participation</h3>
 
 <h4 >Introduction</h4>
@@ -78,8 +80,9 @@ export default function template(this: BapcView) {
   <li>Consists up to 3 persons who are employed by the same company or institution.</li>
   <li>Participates in the business teams pool for the title “Winner of the Benelux Algorithm Programming Contest 2020”.</li>
 </ul>
-
-<h3 >The contest</h3>
+</section>
+<section>
+<h3 >The Contest</h3>
 
 <h4 >Introduction</h4>
 
@@ -142,8 +145,9 @@ export default function template(this: BapcView) {
   </li>
   <li>The jury is responsible for everything that has to do with the problem set and can be contacted for this through the “clarification requests”.</li>
 </ul>
-
-<h3 >Special rules</h3>
+</section>
+<section>
+<h3 >Special Rules</h3>
 
 <ul>
   <li>A team may be disqualified by the organisation or jury for any activity that jeopardises the contest such as dislodging extension cords, unauthorised modification, unintended use of contest materials, using forbidden function or library calls or distracting behaviour.</li>

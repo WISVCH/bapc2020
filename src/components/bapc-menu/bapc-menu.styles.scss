@@ -1,7 +1,6 @@
 :host {
   width: 100%;
-  background-color: #216f21;
-  border-bottom: 0.5vh solid black;
+  background: rgb(247, 148, 29);
 }
 
 nav {
@@ -29,13 +28,13 @@ a {
   text-align: center;
   padding: 10px;
   text-decoration: none;
-  background-color: #216f21;
+  background: rgb(247, 148, 29);
   color: white;
   border-radius: 2px;
 }
 
 a:hover {
-  color: black;
+  color: rgb(58, 58, 60);
   background-color: white;
 }
 
@@ -52,7 +51,7 @@ a:hover {
 
 .dropdown-content a:hover {
   background-color: white;
-  color: black;
+  color: rgb(58, 58, 60);
 }
 
 .dropdown:hover .dropdown-content {

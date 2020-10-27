@@ -1,8 +1,7 @@
 footer {
-  background-color: #216f21;
+  background-image: url("/images/footerbackground.jpg");
   width: 100%;
   min-height: 19.5vh;
-  border-top: 0.5vh solid black;
 }
 
 .supporters {
@@ -33,4 +32,5 @@ footer {
 h3 {
   color: white;
   text-align: center;
+  padding-top:5px;
 }
