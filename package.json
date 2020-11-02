@@ -52,7 +52,7 @@
     "cross-env": "^5.2.0",
     "css-loader": "^2.1.0",
     "ejs": "^2.6.1",
-    "gulp": "^4.0.0",
+    "gulp": "^4.0.2",
     "gulp-htmllint": "^0.0.16",
     "gulp-stylelint": "^8.0.0",
     "gulp-tslint": "^8.1.3",
