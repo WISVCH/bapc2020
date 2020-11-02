@@ -10,6 +10,7 @@ export default function template(this: BapcFooter) {
     <h3>BAPC 2020 is hosted by:</h3>
     <div class="supporters">
     <img src="/images/ch.png" alt="Christiaan Huygens"/>
+    <a href="http://www.asml.com/students"><img class="sponsor" src="/images/asml.jpg" alt="ASML"/></a>
     <img class="tudelft" src="/images/tudelft-logo.svg" alt="Delft University of Technology"/>
     </div>
 </footer>
