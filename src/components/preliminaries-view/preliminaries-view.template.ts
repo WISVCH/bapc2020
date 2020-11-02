@@ -19,11 +19,11 @@ export default function template(this: BapcView) {
       <li>Eindhoven University of Technology(EAPC)</li>
       <li>Leiden University(LKP)</li>
       <li><a href="https://thalia.nu/events/394/">Radboud University</a></li>
-      <li><a href="https://svia.nl/apc">Univerity of Amsterdam(APC)</a></li>
+      <li><a href="https://svia.nl/apc">University of Amsterdam(APC)</a></li>
       <li>UCLouvain</li>
-      <li><a href="https://www.inter-actief.utwente.nl/activities/6108/">Univerity of Twente</a></li>
-      <li><a href="https://www.a-eskwadraat.nl/Vereniging/Commissies/escapade/?setlanguage=en">Univerity of Utrecht(UKP)</a></li>
-      <li><a href="https://aapp.storm.vu/">Vrije Universiteit(AAP)</a></li>
+      <li><a href="https://www.inter-actief.utwente.nl/activities/6108/">University of Twente</a></li>
+      <li><a href="https://www.a-eskwadraat.nl/Vereniging/Commissies/escapade/?setlanguage=en">University of Utrecht(UKP)</a></li>
+      <li><a href="https://aapp.storm.vu/">Vrije Universiteit Amsterdam (AAPP)</a></li>
 </ul>
       </section>
   `;
