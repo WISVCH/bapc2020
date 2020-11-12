@@ -19,8 +19,6 @@ export default function template(this: BapcView) {
     <section>
     <h1>News</h1>
     <hr>
-    <div class="row"></div>
-
     <h3>Schedule update</h3>
     <p>We have updated <a href="https://2020.bapc.eu/schedule">the schedule</a> based on the current plans. Note that the contest is still planned to be online. <br/><small>posted: 27th of October by the BAPC Organisation</small></p>
 
