@@ -17,3 +17,22 @@ section {
     background: var(--app-section-even-color);
   }
 }
+
+p a {
+  color: rgb(247, 148, 29);
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+li a {
+  color: rgb(247, 148, 29);
+  font-weight: bold;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
