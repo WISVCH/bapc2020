@@ -15,14 +15,12 @@ export default function template(this: BapcView) {
       <section>
       <h1>Preliminaries 2019</h1>
       <ul>
-      <li><a href="https://commissies.ch.tudelft.nl/chipcie/?page=dapc/dapc2019">Delft University of Technology(DAPC)</a></li>
-      <li>Eindhoven University of Technology(EAPC)</li>
-      <li>Leiden University(LKP)</li>
+      <li><a href="https://commissies.ch.tudelft.nl/chipcie/?page=dapc/dapc2019">Delft University of Technology (DAPC)</a></li>
+      <li>Eindhoven University of Technology (EAPC)</li>
       <li><a href="https://thalia.nu/events/394/">Radboud University</a></li>
-      <li><a href="https://svia.nl/apc">University of Amsterdam(APC)</a></li>
-      <li>UCLouvain</li>
+      <li><a href="https://svia.nl/apc">University of Amsterdam (APC)</a></li>
       <li><a href="https://www.inter-actief.utwente.nl/activities/6108/">University of Twente</a></li>
-      <li><a href="https://www.a-eskwadraat.nl/Vereniging/Commissies/escapade/?setlanguage=en">University of Utrecht(UKP)</a></li>
+      <li><a href="https://www.a-eskwadraat.nl/Vereniging/Commissies/escapade/?setlanguage=en">University of Utrecht (UKP)</a></li>
       <li><a href="https://aapp.storm.vu/">Vrije Universiteit Amsterdam (AAPP)</a></li>
 </ul>
       </section>
