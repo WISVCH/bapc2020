@@ -30,7 +30,7 @@ export default function template(this: BapcApp) {
     <location-view class="page" ?active="${this._page === 'location'}"></location-view>
     <organisation-view class="page" ?active="${this._page === 'organisation'}"></organisation-view>
     <contact-view class="page" ?active="${this._page === 'contact'}"></contact-view>
-
+    <scoreboard-prelim class="page" ?active="${this._page === 'scoreboard-preliminaries'}"></scoreboard-prelim>
 
       <my-view404 class="page" ?active="${this._page === 'view404'}"></my-view404>
     </main>
