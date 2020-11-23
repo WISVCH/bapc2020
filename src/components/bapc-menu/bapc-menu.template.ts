@@ -26,7 +26,7 @@ export default function template(this: BapcMenuComponent) {
 <!--            </div>-->
 <!--        </div>-->
 <!--        <a class="menu-item" href="/problems">PROBLEMS</a>-->
-<!--        <a class="menu-item" href="/results">RESULTS</a>-->
+        <a class="menu-item" href="/scoreboard-preliminaries">RESULTS PRELIMINARIES</a>
 <!--        <a class="menu-item" href="/location">LOCATION</a>-->
         <a class="menu-item" href="/organisation">ORGANISATION</a>
         <a class="menu-item" href="/contact">CONTACT</a>
