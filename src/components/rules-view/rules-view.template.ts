@@ -11,6 +11,7 @@ export default function template(this: BapcView) {
 <ul>
   <li>[01-08-2020] First version officially online.</li>
   <li>[23-09-2020] Updated contest date, updated rules disclaimer.</li>
+  <li>[24-11-2020] Updated contest rules.</li>
 </ul>
 </section>
 <section>
@@ -34,11 +35,10 @@ export default function template(this: BapcView) {
 <h4 >Organisation</h4>
 
 <ul>
-  <li>The organisation consists of students, alumni and faculty of the Delft University of Technology.</li>
+  <li>The organisation consists of students and alumni of the Delft University of Technology.</li>
   <li>The organisation has formed a jury which consists of students, the staff of different universities, and professionals from industry.</li>
   <li>The organisation has formed a technical staff, a group which consists of students, alumni and faculty of the Delft University of Technology.</li>
   <li>The organisation will appoint runners who will support the organisation, tech and jury during the contest.</li>
-  <li>All crew members will be recognisable during the BAPC by their shirt and/or badge.</li>
 </ul>
 </section>
 <section>
@@ -49,7 +49,7 @@ export default function template(this: BapcView) {
 <ul>
   <li>Participation is only possible in teams of 3 persons.</li>
   <li>There are two team classifications: one for student teams and one for business teams.</li>
-  <li>Changing the composition of a team is only possible with the permission of the organisation and only before the start of the contest. Substitutions should be registered as reserve.</li>
+  <li>Changing the composition of a team is only possible with the permission of the organisation and only before the start of the contest. Substitutions should be registered as a reserve.</li>
   <li>The organisation decides how many teams from each institution are allowed to compete. The organisation will consider the number of interested contestants from each institution.</li>
   <li>The organisation has the right to deny the participation of teams before the start of the contest.</li>
 </ul>
@@ -57,7 +57,7 @@ export default function template(this: BapcView) {
 <h4>Photos and videos</h4>
 
 <ul>
-  <li>Participants and coaches agree that on the day of the contest, on-site, photos will be taken. Objections may be made to a photographer at any point.</li>
+  <li>Participants and coaches agree that on the day of the contest, provided the contest is on-site, photos will be taken. Objections may be made to a photographer at any point.</li>
   <li>The photos taken will be published on the website afterwards. In case someone objects to a photo in which he or she is recognizable, the photo will be immediately removed from the website.</li>
   <li>There might be a public livestream of the award ceremony available on the website. The recording will be publicly available afterwards too. If you do not want to appear on this livestream or want to be removed from the footage afterwards, please contact the organization.</li>
 </ul>
@@ -69,7 +69,7 @@ export default function template(this: BapcView) {
   <li>May participate for free.</li>
   <li>Exists of students from the same institution and who are not participating in another team. The institutions must be located in either Belgium, Luxembourg or The Netherlands.</li>
   <li>Has a coach, which is the contact person of a team. This can be a team member or a student or faculty member of the institution.</li>
-  <li>Participates in the student teams pool for the title “Winner of the Benelux Algorithm Programming Contest 2020” with the cup and the prize money of 1024,- 512,- and 256,- euros for the first, second and third places respectively.</li>
+  <li>Participates in the student teams pool for the title “Winner of the Benelux Algorithm Programming Contest 2020”.</li>
   <li>Consists of students who are eligible for the <a href="https://2020.nwerc.eu/rules/">North Western European Programming Contest 2020.</a></li>
 </ul>
 
@@ -90,7 +90,7 @@ export default function template(this: BapcView) {
   <li>The language of the contest is English. All written contest materials will be in English.</li>
   <li>The contest lasts for 5 hours.</li>
   <li>From the beginning until one hour before the end of the BAPC, the scores are displayed.</li>
-  <li>During the contest, all contestants will have to wear recognisable clothing provided by the organisation, unless explicit exemption is given by the organisation.</li>
+  <li>During the contest, provided it is on-site, all contestants will have to wear recognisable clothing provided by the organisation, unless explicit exemption is given by the organisation.</li>
 </ul>
 
 <h4 >Problems</h4>
@@ -104,26 +104,21 @@ export default function template(this: BapcView) {
 <h4 >System</h4>
 
 <ul>
-  <li>Each team will use a single workstation, consisting of a table for the team members and one computer. The organisation is responsible for determining that teams have reasonably equivalent computing resources.</li>
+  <li>Each team will use at most three workstations, i.e. at most one computer per team member.</li>
   <li>A solution for a problem has to be written in C99, C++ (version 14 or later will be available), Python (versions 3 will be available), Java (version 11 or later) or Kotlin (version 1.3), unless the problem statement explicitly states otherwise. Business teams can request other submission languages, on which the organisation will decide whether it will be made available for submission.</li>
   <li>A team is disqualified if they submit harmful code that disrupts the contest</li>
   <li>For every solution, only the standard library of the chosen language may be used, i.e. no other function calls can be made.</li>
-  <li>All prints made by the teams will be brought by a runner. Participants are not allowed near the printers.</li>
-  <li>A team is allowed to bring up to 25 A4-sized pages, printed one-sided or up to 12.5 A4-sized pages, printed two-sided, of documentation. Text and illustrations must be readable by a person with correctable eyesight without magnification from a distance of 1/2 meter. Each team member is allowed one identical copy.</li>
-  <li>A team is allowed to bring a dictionary from English to their native language.</li>
-  <li>A team is allowed to bring one non-programmable wired USB keyboard. The keyboard needs to be checked by the jury before the testing session. In other cases, a QWERTY keyboard and mouse is provided.</li>
-<!--  <li>A team is allowed to bring a pen and paper. Where available, the organisation will be providing pen and paper.</li>-->
-  <li>Phones and other electronic devices, to be judged by the jury, are not allowed in the computer rooms.</li>
-  <li>All items that are to be used during the contest, have to be handed in during registration to be checked by the organisation. Registration is done per team.</li>
+  <li>Provided the contest is on-site, all prints made by the teams will be brought by a runner. Participants are not allowed near the printers.</li>
+  <li>The organisation discourages copying code from reference materials as solutions will be checked on similarities. If there is suspicion of plagiarism among teams, both teams are subject to disqualification.</li>
 </ul>
 
-<h4 >Department rules</h4>
+<h4 >Department rules (on-site contest only)</h4>
 
 <ul>
   <li>The house rules apply to everybody at the event.</li>
   <li>Inside or near the university buildings, smoking is not allowed.</li>
   <li>Inside computer rooms eating, drinking and talking in a loud manner is not allowed.</li>
-  <li>The use of hardware, including all calculators, not approved by the organisation is strictly a forbidden, with exceptions of simple watches and medical equipment.</li>
+  <li>The use of hardware, including all calculators, not approved by the organisation is strictly forbidden, with exceptions of simple watches and medical equipment.</li>
   <li>Changing of hardware or operating software is strictly forbidden.</li>
   <li>During the contest, participants are not to converse with anyone except members of their team and the crew. Technical staff may advise contestants on system-related problems such as explaining system error messages.</li>
   <li>Participants will follow orders given by the crew.</li>
@@ -153,7 +148,7 @@ export default function template(this: BapcView) {
   <li>A team may be disqualified by the organisation or jury for any activity that jeopardises the contest such as dislodging extension cords, unauthorised modification, unintended use of contest materials, using forbidden function or library calls or distracting behaviour.</li>
   <li>The organisation has the right to stop the contest, extending the contest time, temporarily block submissions for all teams or change the scores in exceptional conditions.</li>
   <li>In situations to which no rule applies or there is ambiguity about the rules, the organisation decides.</li>
-  <li>If necessary, the organisation can make changes and exception to the rules.</li>
+  <li>If necessary, the organisation can make changes and exceptions to the rules.</li>
 </ul>
 
         </div>

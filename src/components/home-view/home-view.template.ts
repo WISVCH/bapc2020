@@ -19,6 +19,9 @@ export default function template(this: BapcView) {
     <section>
     <h1>News</h1>
     <hr>
+	<h3>Rules update</h3>
+    <p>We have updated <a href="https://2020.bapc.eu/rules">the rules</a> based on the current plans. Note that the contest is still planned to be online, and that there will be no prize money this year. This is to discourage fraud.<br/><small>posted: 24th of November by the BAPC Organisation</small></p>
+	
     <h3>Schedule update</h3>
     <p>We have updated <a href="https://2020.bapc.eu/schedule">the schedule</a> based on the current plans. Note that the contest is still planned to be online. <br/><small>posted: 27th of October by the BAPC Organisation</small></p>
 
