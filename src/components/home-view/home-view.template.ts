@@ -13,7 +13,7 @@ export default function template(this: BapcView) {
                 end of the contest qualify for the Northwestern European Regional Contest (NWERC). In this regional
                 competition the teams can qualify themselves for a ticket to the International Collegiate Programming
                 Contest (ICPC), also known as the World Finals.</p>
-                <p>The BAPC 2020 will be held on <strong>December 12th</strong> at the Delft Univerisity of Technology and is organised by <a href="https://ch.tudelft.nl/">W.I.S.V. &lsquo;Christiaan Huygens&rsquo;</a></p>
+                <p>The BAPC 2020 will be held <strong>online</strong> on <strong>December 12th</strong>, hosted by the Delft Univerisity of Technology. The event is organised by a committee of <a href="https://ch.tudelft.nl/">W.I.S.V. &lsquo;Christiaan Huygens&rsquo;</a></p>
 
     </section>
     <section>
