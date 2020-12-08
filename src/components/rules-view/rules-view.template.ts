@@ -57,9 +57,7 @@ export default function template(this: BapcView) {
 <h4>Photos and videos</h4>
 
 <ul>
-  <li>Participants and coaches agree that on the day of the contest, provided the contest is on-site, photos will be taken. Objections may be made to a photographer at any point.</li>
-  <li>The photos taken will be published on the website afterwards. In case someone objects to a photo in which he or she is recognizable, the photo will be immediately removed from the website.</li>
-  <li>There might be a public livestream of the award ceremony available on the website. The recording will be publicly available afterwards too. If you do not want to appear on this livestream or want to be removed from the footage afterwards, please contact the organization.</li>
+	<li>There might be a public livestream of the award ceremony available on the website. The recording will be publicly available afterwards too. If you do not want to appear on this livestream or want to be removed from the footage afterwards, please contact the organization.</li>
 </ul>
 
 <h4 >Student teams</h4>
@@ -90,7 +88,6 @@ export default function template(this: BapcView) {
   <li>The language of the contest is English. All written contest materials will be in English.</li>
   <li>The contest lasts for 5 hours.</li>
   <li>From the beginning until one hour before the end of the BAPC, the scores are displayed.</li>
-  <li>During the contest, provided it is on-site, all contestants will have to wear recognisable clothing provided by the organisation, unless explicit exemption is given by the organisation.</li>
 </ul>
 
 <h4 >Problems</h4>
@@ -108,21 +105,7 @@ export default function template(this: BapcView) {
   <li>A solution for a problem has to be written in C99, C++ (version 14 or later will be available), Python (versions 3 will be available), Java (version 11 or later) or Kotlin (version 1.3), unless the problem statement explicitly states otherwise. Business teams can request other submission languages, on which the organisation will decide whether it will be made available for submission.</li>
   <li>A team is disqualified if they submit harmful code that disrupts the contest</li>
   <li>For every solution, only the standard library of the chosen language may be used, i.e. no other function calls can be made.</li>
-  <li>Provided the contest is on-site, all prints made by the teams will be brought by a runner. Participants are not allowed near the printers.</li>
-  <li>The organisation discourages copying code from reference materials as solutions will be checked on similarities. If there is suspicion of plagiarism among teams, both teams are subject to disqualification.</li>
-</ul>
-
-<h4 >Department rules (on-site contest only)</h4>
-
-<ul>
-  <li>The house rules apply to everybody at the event.</li>
-  <li>Inside or near the university buildings, smoking is not allowed.</li>
-  <li>Inside computer rooms eating, drinking and talking in a loud manner is not allowed.</li>
-  <li>The use of hardware, including all calculators, not approved by the organisation is strictly forbidden, with exceptions of simple watches and medical equipment.</li>
-  <li>Changing of hardware or operating software is strictly forbidden.</li>
-  <li>During the contest, participants are not to converse with anyone except members of their team and the crew. Technical staff may advise contestants on system-related problems such as explaining system error messages.</li>
-  <li>Participants will follow orders given by the crew.</li>
-  <li>Participants will wear the shirt and badge provided by the organisation. Company members are allowed to wear a shirt with a clear company logo on it.</li>
+  <li>There is no explicit restriction on internet access during the contest. However, the organisation discourages copying code from reference materials as solutions will be checked on similarities. If there is suspicion of plagiarism among teams, both teams are subject to disqualification.</li>
 </ul>
 
 <h4 >Judgement</h4>
