@@ -18,18 +18,21 @@ export default function template(this: BapcView) {
     </section>
     <section>
     <h1>News</h1>
+      <hr>
+      <h3>Compiler versions published</h3>
+      <p>The versions of the compilers and runtime have been published on the <a href="https://2020.bapc.eu/system">Systems page</a>. <br/><small>posted: 10th of December by the BAPC Organisation</small></p>
     <hr>
 	<h3>Spectator server is live!</h3>
     <p>The <a href="http://spectator.bapc.eu/" target="_blank">spectator DOMjudge server</a> is live! Please <a href="http://spectator.bapc.eu/register" target="_blank">self-register on the server</a> if you want to compete as a spectator team. Note that the spectator contest will start half an hour later than the normal contest (so at 12:30). See the <a href="http://2020.bapc.eu/schedule" target="_blank">schedule</a> for the complete overview.<br/><small>posted: 9th of December by the BAPC Organisation</small></p>
-	
-	
+
+
 	<h3>Update on spectator teams</h3>
     <p>We allow spectator teams to participate at the BAPC 2020. In the week before the contest, these teams can register at our DOMjudge server (NB: the link to this will be posted in an news announcement on this page). Note that this is a stand-alone contest instance, so there is no possibility to submit a problem clarification to the jury as a spectator team.<br/><small>posted: 26th of November; updated: 8th of December by the BAPC Organisation</small></p>
-	
-	
+
+
 	<h3>Rules update</h3>
     <p>We have updated <a href="https://2020.bapc.eu/rules">the rules</a> based on the current plans. Note that the contest is still planned to be online, and that there will be no prize money this year. This is to discourage fraud.<br/><small>posted: 24th of November by the BAPC Organisation</small></p>
-	
+
     <h3>Schedule update</h3>
     <p>We have updated <a href="https://2020.bapc.eu/schedule">the schedule</a> based on the current plans. Note that the contest is still planned to be online. <br/><small>posted: 27th of October by the BAPC Organisation</small></p>
 
