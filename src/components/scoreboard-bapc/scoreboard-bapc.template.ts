@@ -4,8 +4,8 @@ import { BapcView } from './scoreboard-bapc';
 export default function template(this: BapcView) {
   return html`
 <section>
-<h1>Scoreboard BAPC 2020 after 4 hours of contest</h1>
-         <table class="scoreboard center ">
+<h1>Scoreboard BAPC 2020 after the freeze</h1>
+   <table class="scoreboard center ">
 
             <colgroup>
               <col id="scorerank"/>
@@ -147,10 +147,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -286,6 +286,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
             </tr>
 
@@ -325,6 +333,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 6 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -566,6 +582,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -628,6 +652,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
             </tr>
 
@@ -668,10 +700,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -846,6 +878,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -880,6 +920,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -970,6 +1018,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
             </tr>
 
@@ -1043,6 +1099,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 5 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -1133,6 +1197,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
             </tr>
 
@@ -1206,6 +1278,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -1335,6 +1415,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -1369,6 +1457,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -1460,10 +1556,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -1541,10 +1637,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -1712,10 +1808,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -1739,6 +1835,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -1801,6 +1905,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
             </tr>
 
@@ -1894,6 +2006,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2030,10 +2150,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -2057,6 +2177,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 6 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2158,6 +2286,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 8 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2212,6 +2348,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2418,10 +2562,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -2538,6 +2682,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2645,6 +2797,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2793,10 +2953,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -2854,6 +3014,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2947,6 +3115,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 5 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -2987,6 +3163,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 4 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -3129,10 +3313,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3143,10 +3327,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3251,6 +3435,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -3285,6 +3477,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -3306,10 +3506,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3348,10 +3548,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3375,6 +3575,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
             </tr>
 
@@ -3448,6 +3656,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -3455,10 +3671,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3603,6 +3819,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 4 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -3649,6 +3873,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -3769,10 +4001,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3797,10 +4029,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3870,10 +4102,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3897,6 +4129,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 9 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -4017,10 +4257,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4099,10 +4339,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4326,6 +4566,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -4465,6 +4713,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -4658,6 +4914,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -4763,6 +5027,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -4789,6 +5061,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -4916,6 +5196,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -4928,6 +5216,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5069,12 +5365,28 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5222,6 +5534,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5242,6 +5562,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5446,6 +5774,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5473,10 +5809,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    6 tries
+                                                                                    6 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5585,6 +5921,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5631,6 +5975,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5745,10 +6097,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5759,10 +6111,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    8 tries
+                                                                                    8 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5799,10 +6151,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5871,6 +6223,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -6077,10 +6437,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6204,10 +6564,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6232,10 +6592,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6379,10 +6739,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6498,10 +6858,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6525,6 +6885,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 5 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -6590,6 +6958,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -6625,10 +7001,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6665,10 +7041,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6738,10 +7114,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6819,6 +7195,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -6885,10 +7269,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6919,10 +7303,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    9 tries
+                                                                                    9 + 5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7074,10 +7458,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7088,10 +7472,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7220,6 +7604,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 5 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -7325,6 +7717,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 4 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -7457,10 +7857,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7498,6 +7898,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 5 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -7538,6 +7946,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -7638,10 +8054,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7742,6 +8158,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -7797,10 +8221,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7825,10 +8249,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7898,10 +8322,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7932,10 +8356,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7952,10 +8376,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8045,10 +8469,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8087,10 +8511,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    6 tries
+                                                                                    6 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8100,6 +8524,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -8135,10 +8567,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8338,6 +8770,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -8365,10 +8805,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8385,10 +8825,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8413,10 +8853,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8506,10 +8946,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8520,10 +8960,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8619,10 +9059,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8711,10 +9151,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8763,6 +9203,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -8789,6 +9237,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -8921,10 +9377,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    7 tries
+                                                                                    7 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8960,6 +9416,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -8967,10 +9431,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9051,6 +9515,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -9157,10 +9629,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9191,10 +9663,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9299,7 +9771,7 @@ export default function template(this: BapcView) {
                   <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 + 1 tries
+                                                                                    2 + 3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9338,10 +9810,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9457,10 +9929,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9496,6 +9968,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -9654,10 +10134,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9738,6 +10218,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -9777,10 +10265,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    6 tries
+                                                                                    6 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9830,10 +10318,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9877,6 +10365,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -10038,12 +10534,28 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -10176,10 +10688,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10210,10 +10722,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10295,10 +10807,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10407,6 +10919,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -10619,10 +11139,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10692,10 +11212,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10711,6 +11231,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -10750,10 +11278,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10808,6 +11336,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -10815,10 +11351,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    7 tries
+                                                                                    7 + 5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10931,6 +11467,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -11004,10 +11548,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11208,10 +11752,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    7 tries
+                                                                                    7 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11266,10 +11810,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    8 tries
+                                                                                    8 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11325,10 +11869,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11367,10 +11911,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11412,6 +11956,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 6 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -12725,7 +13277,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                27
                             </span>
                   <br/>
 
@@ -12751,7 +13303,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                1
+                                56
                             </span>
                   <br/>
 
@@ -12777,7 +13329,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                8
                             </span>
                   <br/>
 
@@ -12803,7 +13355,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                40
                             </span>
                   <br/>
 
@@ -12829,7 +13381,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                63
                             </span>
                   <br/>
 
@@ -12855,7 +13407,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                34
                             </span>
                   <br/>
 
@@ -12881,7 +13433,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                29
                             </span>
                   <br/>
 
@@ -12933,7 +13485,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                39
                             </span>
                   <br/>
 
@@ -12959,7 +13511,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                22
                             </span>
                   <br/>
 
@@ -12985,7 +13537,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                10
                             </span>
                   <br/>
 
@@ -13075,6 +13627,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -13165,6 +13725,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
             </tr>
 
@@ -13244,10 +13812,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    4 tries
+                                                                                    4 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13271,6 +13839,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 3 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -13412,10 +13988,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13580,10 +14156,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    3 tries
+                                                                                    3 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13720,10 +14296,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    5 tries
+                                                                                    5 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13775,6 +14351,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -14052,10 +14636,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    1 try
+                                                                                    1 + 5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14085,6 +14669,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 2 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -14175,6 +14767,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -14202,10 +14802,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14215,6 +14815,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_pending">
+                    &nbsp;
+                    <span>
+                                                                                    0 + 1 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -14358,10 +14966,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    2 tries
+                                                                                    2 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14386,10 +14994,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_incorrect">
+                  <div class="score_pending">
                     &nbsp;
                     <span>
-                                                                                    6 tries
+                                                                                    6 + 1 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14464,7 +15072,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                3
                             </span>
                   <br/>
 
@@ -14516,7 +15124,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                12
                             </span>
                   <br/>
 
@@ -14542,7 +15150,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                1
                             </span>
                   <br/>
 
@@ -14568,7 +15176,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                5
                             </span>
                   <br/>
 
@@ -14594,7 +15202,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                4
                             </span>
                   <br/>
 
@@ -14646,7 +15254,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                1
+                                2
                             </span>
                   <br/>
 
@@ -14698,7 +15306,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                0
+                                1
                             </span>
                   <br/>
 
@@ -14760,6 +15368,11 @@ export default function template(this: BapcView) {
             </tr>
             </tbody>
           </table>
+
+          <p id="lastmod">
+            Last Update: Sat 12 Dec 2020 17:03:33 CET<br/>
+            using <a href="https://www.domjudge.org/" target="_top">DOMjudge</a>
+          </p>
 
 </section>
   `;
