@@ -4,7 +4,6 @@ import { BapcView } from './scoreboard-bapc';
 export default function template(this: BapcView) {
   return html`
 <section>
-<h1>Scoreboard BAPC 2020 after the freeze</h1>
    <table class="scoreboard center ">
 
             <colgroup>
@@ -138,8 +137,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">9</td>
-              <td class="scorett">731</td>
+              <td class="scorenc">11</td>
+              <td class="scorett">1264</td>
 
 
 
@@ -147,10 +146,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    250
                     <span>
-                                                                                    2 + 1 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -287,19 +286,377 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct score_first">
+                    243
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
               </td>
             </tr>
 
-            <tr class="" id="team:476891">
+            <tr class="" id="team:476689">
               <td class="scorepl">
                 2
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/BEL.png?v=7.3.2" alt="Belgium"
+                       title="Belgium">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/3.png?v=7.3.2" alt="Université de Mons"
+                       title="Université de Mons">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="CPUMONS">
+                <a  >
+                    <span class="forceWidth">
+                                                CPUMONS
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Université de Mons
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">10</td>
+              <td class="scorett">1402</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    127
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    26
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    293
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    48
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    183
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    128
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    12
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    96
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    63
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    246
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+            </tr>
+
+            <tr class="" id="team:478725">
+              <td class="scorepl">
+                3
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/9.png?v=7.3.2" alt="Utrecht University"
+                       title="Utrecht University">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="SnackUnderflow">
+                <a  >
+                    <span class="forceWidth">
+                                                SnackUnderflow
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Utrecht University
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">10</td>
+              <td class="scorett">1403</td>
+
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct score_first">
+                    222
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    77
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    32
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    208
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    104
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    265
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    131
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    10
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    144
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    50
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:476891">
+              <td class="scorepl">
+                4
               </td>
               <td class="scoreaf">
                 <a >
@@ -334,10 +691,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 6 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -476,36 +833,36 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478725">
+            <tr class="" id="team:478815">
               <td class="scorepl">
-                3
+                5
               </td>
               <td class="scoreaf">
                 <a >
                   <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
+                       src="/images/countries/BEL.png?v=7.3.2" alt="Belgium"
+                       title="Belgium">
                 </a>
               </td>
               <td class="scoreaf">
                 <a >
                   <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/9.png?v=7.3.2" alt="Utrecht University"
-                       title="Utrecht University">
+                       src="/images/affiliations/2.png?v=7.3.2" alt="Université Catholique de Louvain"
+                       title="Université Catholique de Louvain">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="SnackUnderflow">
+              <td class="scoretn cl_FFFFFF" title="Algorithms Beat Lockdown">
                 <a  >
                     <span class="forceWidth">
-                                                SnackUnderflow
+                                                Algorithms Beat Lockdown
                     </span>
                   <span class="univ forceWidth">
-                                                            Utrecht University
+                                                            Université Catholique de Louvain
                                                     </span>
                 </a>
               </td>
               <td class="scorenc">9</td>
-              <td class="scorett">1118</td>
+              <td class="scorett">943</td>
 
 
 
@@ -513,8 +870,8 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_correct score_first">
-                    222
+                  <div class="score_incorrect">
+                    &nbsp;
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -528,7 +885,21 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    77
+                    145
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    15
                     <span>
                                                                                     2 tries
                                                                             </span>
@@ -542,7 +913,21 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    32
+                    256
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    40
                     <span>
                                                                                     2 tries
                                                                             </span>
@@ -556,7 +941,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    208
+                    179
                     <span>
                                                                                     2 tries
                                                                             </span>
@@ -570,35 +955,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    104
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    131
+                    26
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -626,7 +983,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    144
+                    98
                     <span>
                                                                                     2 tries
                                                                             </span>
@@ -640,7 +997,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    50
+                    54
                     <span>
                                                                                     3 tries
                                                                             </span>
@@ -653,10 +1010,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -665,7 +1022,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478960">
               <td class="scorepl">
-                4
+                6
               </td>
               <td class="scoreaf">
                 <a >
@@ -700,10 +1057,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 2 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -842,733 +1199,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478815">
-              <td class="scorepl">
-                5
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/BEL.png?v=7.3.2" alt="Belgium"
-                       title="Belgium">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/2.png?v=7.3.2" alt="Université Catholique de Louvain"
-                       title="Université Catholique de Louvain">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Algorithms Beat Lockdown">
-                <a  >
-                    <span class="forceWidth">
-                                                Algorithms Beat Lockdown
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Université Catholique de Louvain
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">8</td>
-              <td class="scorett">687</td>
-
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    145
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    15
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    40
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    179
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    26
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    10
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    98
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    54
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-            </tr>
-
-            <tr class="" id="team:478959">
-              <td class="scorepl">
-                6
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Out of Touch">
-                <a  >
-                    <span class="forceWidth">
-                                                Out of Touch
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Delft University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">8</td>
-              <td class="scorett">740</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    139
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    60
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 5 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    91
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    205
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    73
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    7
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct score_first">
-                    34
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    31
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-            </tr>
-
-            <tr class="" id="team:476892">
-              <td class="scorepl">
-                7
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
-                       title="Radboud University">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Perry the C+platy+">
-                <a  >
-                    <span class="forceWidth">
-                                                Perry the C+platy+
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Radboud University
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">8</td>
-              <td class="scorett">744</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    55
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    62
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    127
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    115
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    175
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    7
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    90
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    13
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:476689">
-              <td class="scorepl">
-                8
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/BEL.png?v=7.3.2" alt="Belgium"
-                       title="Belgium">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/3.png?v=7.3.2" alt="Université de Mons"
-                       title="Université de Mons">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="CPUMONS">
-                <a  >
-                    <span class="forceWidth">
-                                                CPUMONS
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Université de Mons
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">8</td>
-              <td class="scorett">803</td>
-
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    127
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    26
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    48
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    183
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    128
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    12
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    96
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    63
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-            </tr>
-
             <tr class="" id="team:478961">
               <td class="scorepl">
-                9
+                7
               </td>
               <td class="scoreaf">
                 <a >
@@ -1594,8 +1227,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">8</td>
-              <td class="scorett">836</td>
+              <td class="scorenc">9</td>
+              <td class="scorett">1253</td>
 
 
 
@@ -1637,10 +1270,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    277
                     <span>
-                                                                                    5 + 3 tries
+                                                                                    8 tries
                                                                             </span>
                   </div>
                 </a>
@@ -1739,7 +1372,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478519">
               <td class="scorepl">
-                10
+                8
               </td>
               <td class="scoreaf">
                 <a >
@@ -1765,8 +1398,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">7</td>
-              <td class="scorett">444</td>
+              <td class="scorenc">8</td>
+              <td class="scorett">720</td>
 
 
 
@@ -1808,10 +1441,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    256
                     <span>
-                                                                                    1 + 1 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -1836,10 +1469,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -1906,13 +1539,363 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
+              </td>
+            </tr>
+
+            <tr class="" id="team:478959">
+              <td class="scorepl">
+                9
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Out of Touch">
+                <a  >
+                    <span class="forceWidth">
+                                                Out of Touch
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Delft University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">8</td>
+              <td class="scorett">740</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    139
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    60
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    91
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    205
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    73
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    7
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct score_first">
+                    34
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    31
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+            </tr>
+
+            <tr class="" id="team:476892">
+              <td class="scorepl">
+                10
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
+                       title="Radboud University">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Perry the C+platy+">
+                <a  >
+                    <span class="forceWidth">
+                                                Perry the C+platy+
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Radboud University
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">8</td>
+              <td class="scorett">744</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    55
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    62
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    127
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    115
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    175
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    7
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    90
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    13
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
               </td>
             </tr>
 
@@ -1944,8 +1927,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">7</td>
-              <td class="scorett">716</td>
+              <td class="scorenc">8</td>
+              <td class="scorett">1017</td>
 
 
 
@@ -2007,10 +1990,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    281
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -2079,351 +2062,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478577">
-              <td class="scorepl">
-                12
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/11.png?v=7.3.2" alt="Vrije Universiteit"
-                       title="Vrije Universiteit">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="The Hyperspheres">
-                <a  >
-                    <span class="forceWidth">
-                                                The Hyperspheres
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Vrije Universiteit
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">7</td>
-              <td class="scorett">736</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    144
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    102
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    67
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 6 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    89
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    15
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    187
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    52
-                    <span>
-                                                                                    4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:476894">
-              <td class="scorepl">
-                13
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
-                       title="Radboud University">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="The Turbofish">
-                <a  >
-                    <span class="forceWidth">
-                                                The Turbofish
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Radboud University
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">7</td>
-              <td class="scorett">786</td>
-
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 8 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    110
-                    <span>
-                                                                                    4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    60
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    95
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    181
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    19
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    161
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    40
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:478366">
               <td class="scorepl">
-                14
+                12
               </td>
               <td class="scoreaf">
                 <a >
@@ -2449,8 +2090,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">7</td>
-              <td class="scorett">815</td>
+              <td class="scorenc">8</td>
+              <td class="scorett">1141</td>
 
 
 
@@ -2562,10 +2203,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    246
                     <span>
-                                                                                    4 + 1 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -2594,7 +2235,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478965">
               <td class="scorepl">
-                15
+                13
               </td>
               <td class="scoreaf">
                 <a >
@@ -2620,8 +2261,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">7</td>
-              <td class="scorett">943</td>
+              <td class="scorenc">8</td>
+              <td class="scorett">1251</td>
 
 
 
@@ -2683,10 +2324,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    288
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -2755,9 +2396,864 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:479855">
+            <tr class="" id="team:475939">
+              <td class="scorepl">
+                14
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/7.png?v=7.3.2" alt="University of Twente"
+                       title="University of Twente">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Shara">
+                <a  >
+                    <span class="forceWidth">
+                                                Shara
+                    </span>
+                  <span class="univ forceWidth">
+                                                            University of Twente
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">8</td>
+              <td class="scorett">1270</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    299
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    41
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    95
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    158
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    246
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    24
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    176
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    51
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:479081">
+              <td class="scorepl">
+                15
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/8.png?v=7.3.2" alt="Eindhoven University of Technology"
+                       title="Eindhoven University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Red Pi">
+                <a  >
+                    <span class="forceWidth">
+                                                Red Pi
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Eindhoven University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">8</td>
+              <td class="scorett">1357</td>
+
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    210
+                    <span>
+                                                                                    6 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    63
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    31
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    265
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    136
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    9
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    271
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    52
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+            </tr>
+
+            <tr class="" id="team:478963">
               <td class="scorepl">
                 16
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Crystal Math">
+                <a  >
+                    <span class="forceWidth">
+                                                Crystal Math
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Delft University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">8</td>
+              <td class="scorett">1396</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    145
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    113
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    288
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    261
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    194
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    11
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    159
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    25
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478577">
+              <td class="scorepl">
+                17
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/11.png?v=7.3.2" alt="Vrije Universiteit"
+                       title="Vrije Universiteit">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="The Hyperspheres">
+                <a  >
+                    <span class="forceWidth">
+                                                The Hyperspheres
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Vrije Universiteit
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">7</td>
+              <td class="scorett">736</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    144
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    102
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    6 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    67
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    6 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    89
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    15
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    187
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    52
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:476894">
+              <td class="scorepl">
+                18
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
+                       title="Radboud University">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="The Turbofish">
+                <a  >
+                    <span class="forceWidth">
+                                                The Turbofish
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Radboud University
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">7</td>
+              <td class="scorett">786</td>
+
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    8 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    110
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    60
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    95
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    181
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    19
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    161
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    40
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:479855">
+              <td class="scorepl">
+                19
               </td>
               <td class="scoreaf">
                 <a >
@@ -2783,8 +3279,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">6</td>
-              <td class="scorett">607</td>
+              <td class="scorenc">7</td>
+              <td class="scorett">894</td>
 
 
 
@@ -2798,10 +3294,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    267
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -2910,172 +3406,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:475939">
-              <td class="scorepl">
-                17
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/7.png?v=7.3.2" alt="University of Twente"
-                       title="University of Twente">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Shara">
-                <a  >
-                    <span class="forceWidth">
-                                                Shara
-                    </span>
-                  <span class="univ forceWidth">
-                                                            University of Twente
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">6</td>
-              <td class="scorett">625</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    41
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    95
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    158
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    24
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    176
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    51
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:478964">
               <td class="scorepl">
-                18
+                20
               </td>
               <td class="scoreaf">
                 <a >
@@ -3101,8 +3434,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">6</td>
-              <td class="scorett">677</td>
+              <td class="scorenc">7</td>
+              <td class="scorett">1051</td>
 
 
 
@@ -3116,10 +3449,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    294
                     <span>
-                                                                                    0 + 5 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3164,10 +3497,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 4 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3236,9 +3569,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478963">
+            <tr class="" id="team:478599">
               <td class="scorepl">
-                19
+                21
               </td>
               <td class="scoreaf">
                 <a >
@@ -3250,22 +3583,22 @@ export default function template(this: BapcView) {
               <td class="scoreaf">
                 <a >
                   <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
+                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
+                       title="Universiteit van Amsterdam">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="Crystal Math">
+              <td class="scoretn cl_FFFFFF" title="Eulerianen">
                 <a  >
                     <span class="forceWidth">
-                                                Crystal Math
+                                                Eulerianen
                     </span>
                   <span class="univ forceWidth">
-                                                            Delft University of Technology
+                                                            Universiteit van Amsterdam
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">6</td>
-              <td class="scorett">727</td>
+              <td class="scorenc">7</td>
+              <td class="scorett">1222</td>
 
 
 
@@ -3280,21 +3613,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    145
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    113
+                    259
                     <span>
                                                                                     4 tries
                                                                             </span>
@@ -3306,17 +3625,11 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    64
                     <span>
-                                                                                    1 + 4 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3326,14 +3639,6 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
               </td>
 
 
@@ -3342,7 +3647,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    194
+                    120
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -3354,14 +3659,6 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    11
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
               </td>
 
 
@@ -3370,7 +3667,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    159
+                    131
                     <span>
                                                                                     2 tries
                                                                             </span>
@@ -3384,9 +3681,37 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    25
+                    13
                     <span>
                                                                                     1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    293
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    122
+                    <span>
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3399,9 +3724,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:479081">
+            <tr class="" id="team:479236">
               <td class="scorepl">
-                20
+                22
               </td>
               <td class="scoreaf">
                 <a >
@@ -3417,10 +3742,10 @@ export default function template(this: BapcView) {
                        title="Eindhoven University of Technology">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="Red Pi">
+              <td class="scoretn cl_FFFFFF" title="The Vikings">
                 <a  >
                     <span class="forceWidth">
-                                                Red Pi
+                                                The Vikings
                     </span>
                   <span class="univ forceWidth">
                                                             Eindhoven University of Technology
@@ -3428,18 +3753,24 @@ export default function template(this: BapcView) {
                 </a>
               </td>
               <td class="scorenc">6</td>
-              <td class="scorett">741</td>
+              <td class="scorett">591</td>
 
 
 
 
 
               <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    163
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3451,7 +3782,202 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    210
+                    44
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    73
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    6
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    242
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    23
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478969">
+              <td class="scorepl">
+                23
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Chocolade Kruidnoten">
+                <a  >
+                    <span class="forceWidth">
+                                                Chocolade Kruidnoten
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Delft University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">6</td>
+              <td class="scorett">782</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    58
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    67
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    127
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    241
                     <span>
                                                                                     6 tries
                                                                             </span>
@@ -3465,35 +3991,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    63
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    31
+                    23
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -3506,10 +4004,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    2 + 1 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3521,9 +4019,9 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    136
+                    46
                     <span>
-                                                                                    4 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3533,62 +4031,12 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    9
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    52
-                    <span>
-                                                                                    4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
               </td>
             </tr>
 
             <tr class="" id="team:479078">
               <td class="scorepl">
-                21
+                24
               </td>
               <td class="scoreaf">
                 <a >
@@ -3657,10 +4105,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -3671,10 +4119,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    4 + 2 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3749,9 +4197,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:479236">
+            <tr class="" id="team:478573">
               <td class="scorepl">
-                22
+                25
               </td>
               <td class="scoreaf">
                 <a >
@@ -3763,67 +4211,33 @@ export default function template(this: BapcView) {
               <td class="scoreaf">
                 <a >
                   <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/8.png?v=7.3.2" alt="Eindhoven University of Technology"
-                       title="Eindhoven University of Technology">
+                       src="/images/affiliations/13.png?v=7.3.2" alt="Leiden University"
+                       title="Leiden University">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="The Vikings">
+              <td class="scoretn cl_FFFFFF" title="Snekmentation Fault">
                 <a  >
                     <span class="forceWidth">
-                                                The Vikings
+                                                Snekmentation Fault
                     </span>
                   <span class="univ forceWidth">
-                                                            Eindhoven University of Technology
+                                                            Leiden University
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">5</td>
-              <td class="scorett">349</td>
+              <td class="scorenc">6</td>
+              <td class="scorett">870</td>
 
-
-
-
-
-              <td class="score_cell">
-              </td>
 
 
 
 
               <td class="score_cell">
                 <a >
-                  <div class="score_correct">
-                    163
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    44
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 4 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -3835,204 +4249,9 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    73
+                    268
                     <span>
                                                                                     1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    6
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    23
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:478969">
-              <td class="scorepl">
-                23
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Chocolade Kruidnoten">
-                <a  >
-                    <span class="forceWidth">
-                                                Chocolade Kruidnoten
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Delft University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">5</td>
-              <td class="scorett">441</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    58
-                    <span>
-                                                                                    4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    67
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    127
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    5 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    23
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4046,7 +4265,81 @@ export default function template(this: BapcView) {
                   <div class="score_correct">
                     46
                     <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    128
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct score_first">
+                    5
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    205
+                    <span>
                                                                                     3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    38
+                    <span>
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4061,7 +4354,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478982">
               <td class="scorepl">
-                24
+                26
               </td>
               <td class="scoreaf">
                 <a >
@@ -4087,8 +4380,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">5</td>
-              <td class="scorett">550</td>
+              <td class="scorenc">6</td>
+              <td class="scorett">878</td>
 
 
 
@@ -4102,10 +4395,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    248
                     <span>
-                                                                                    4 + 1 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4130,10 +4423,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 9 tries
+                                                                                    9 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4214,9 +4507,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478599">
+            <tr class="" id="team:478607">
               <td class="scorepl">
-                25
+                27
               </td>
               <td class="scoreaf">
                 <a >
@@ -4232,18 +4525,18 @@ export default function template(this: BapcView) {
                        title="Universiteit van Amsterdam">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="Eulerianen">
+              <td class="scoretn cl_FFFFFF" title="Hack Attack">
                 <a  >
                     <span class="forceWidth">
-                                                Eulerianen
+                                                Hack Attack
                     </span>
                   <span class="univ forceWidth">
                                                             Universiteit van Amsterdam
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">5</td>
-              <td class="scorett">570</td>
+              <td class="scorenc">6</td>
+              <td class="scorett">1093</td>
 
 
 
@@ -4257,10 +4550,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    205
                     <span>
-                                                                                    2 + 2 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -4272,7 +4565,182 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    64
+                    66
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    268
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    20
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    164
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    110
+                    <span>
+                                                                                    7 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478603">
+              <td class="scorepl">
+                28
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
+                       title="Universiteit van Amsterdam">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="ICE">
+                <a  >
+                    <span class="forceWidth">
+                                                ICE
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Universiteit van Amsterdam
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">6</td>
+              <td class="scorett">1287</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    237
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    228
+                    <span>
+                                                                                    8 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    169
                     <span>
                                                                                     3 tries
                                                                             </span>
@@ -4291,58 +4759,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_correct">
-                    120
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    131
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    13
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    2 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -4354,9 +4774,37 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    122
+                    41
                     <span>
-                                                                                    4 tries
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    299
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    33
+                    <span>
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4371,7 +4819,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:476824">
               <td class="scorepl">
-                26
+                29
               </td>
               <td class="scoreaf">
                 <a >
@@ -4516,164 +4964,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478573">
-              <td class="scorepl">
-                27
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/13.png?v=7.3.2" alt="Leiden University"
-                       title="Leiden University">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Snekmentation Fault">
-                <a  >
-                    <span class="forceWidth">
-                                                Snekmentation Fault
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Leiden University
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">5</td>
-              <td class="scorett">602</td>
-
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_incorrect">
-                    &nbsp;
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    46
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    128
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct score_first">
-                    5
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    205
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    38
-                    <span>
-                                                                                    6 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:478600">
               <td class="scorepl">
-                28
+                30
               </td>
               <td class="scoreaf">
                 <a >
@@ -4714,10 +5007,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4820,7 +5113,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478966">
               <td class="scorepl">
-                29
+                31
               </td>
               <td class="scoreaf">
                 <a >
@@ -4915,10 +5208,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -4967,7 +5260,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478581">
               <td class="scorepl">
-                30
+                32
               </td>
               <td class="scoreaf">
                 <a >
@@ -5028,10 +5321,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5062,10 +5355,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -5120,9 +5413,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478607">
+            <tr class="" id="team:476640">
               <td class="scorepl">
-                31
+                33
               </td>
               <td class="scoreaf">
                 <a >
@@ -5134,22 +5427,22 @@ export default function template(this: BapcView) {
               <td class="scoreaf">
                 <a >
                   <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
-                       title="Universiteit van Amsterdam">
+                       src="/images/affiliations/7.png?v=7.3.2" alt="University of Twente"
+                       title="University of Twente">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="Hack Attack">
+              <td class="scoretn cl_FFFFFF" title="Dispuut Yorinf - Heren 1">
                 <a  >
                     <span class="forceWidth">
-                                                Hack Attack
+                                                Dispuut Yorinf - Heren 1
                     </span>
                   <span class="univ forceWidth">
-                                                            Universiteit van Amsterdam
+                                                            University of Twente
                                                     </span>
                 </a>
               </td>
               <td class="scorenc">5</td>
-              <td class="scorett">785</td>
+              <td class="scorett">633</td>
 
 
 
@@ -5164,7 +5457,75 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    205
+                    130
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    28
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    12 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    18
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -5178,7 +5539,837 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    66
+                    244
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    53
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478967">
+              <td class="scorepl">
+                34
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="camel_case">
+                <a  >
+                    <span class="forceWidth">
+                                                camel_case
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Delft University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">5</td>
+              <td class="scorett">662</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    183
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    52
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    6 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    7 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    14
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    247
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    46
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:476933">
+              <td class="scorepl">
+                35
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
+                       title="Radboud University">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="beep boop ben robot">
+                <a  >
+                    <span class="forceWidth">
+                                                beep boop ben robot
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Radboud University
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">5</td>
+              <td class="scorett">680</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    281
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    57
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    170
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    17
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    35
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:479082">
+              <td class="scorepl">
+                36
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/8.png?v=7.3.2" alt="Eindhoven University of Technology"
+                       title="Eindhoven University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="M^3">
+                <a  >
+                    <span class="forceWidth">
+                                                M^3
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Eindhoven University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">5</td>
+              <td class="scorett">707</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    55
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    85
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    7
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    265
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    75
+                    <span>
+                                                                                    8 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478962">
+              <td class="scorepl">
+                37
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Codebeukers">
+                <a  >
+                    <span class="forceWidth">
+                                                Codebeukers
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Delft University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">5</td>
+              <td class="scorett">728</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    266
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    58
+                    <span>
+                                                                                    6 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    208
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    13
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    43
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:476895">
+              <td class="scorepl">
+                38
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
+                       title="Radboud University">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Nameless team">
+                <a  >
+                    <span class="forceWidth">
+                                                Nameless team
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Radboud University
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">5</td>
+              <td class="scorett">735</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    51
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    278
+                    <span>
+                                                                                    8 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    25
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    139
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    42
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478301">
+              <td class="scorepl">
+                39
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/9.png?v=7.3.2" alt="Utrecht University"
+                       title="Utrecht University">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="🤔👨‍💻👨‍💻👨‍💻😕">
+                <a  >
+                    <span class="forceWidth">
+                                                🤔👨‍💻👨‍💻👨‍💻😕
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Utrecht University
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">5</td>
+              <td class="scorett">753</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    255
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    127
                     <span>
                                                                                     5 tries
                                                                             </span>
@@ -5197,42 +6388,28 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
                   <div class="score_correct">
-                    20
+                    131
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -5246,7 +6423,21 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    164
+                    19
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
                     <span>
                                                                                     2 tries
                                                                             </span>
@@ -5260,9 +6451,9 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    110
+                    61
                     <span>
-                                                                                    7 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5277,7 +6468,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478606">
               <td class="scorepl">
-                32
+                40
               </td>
               <td class="scoreaf">
                 <a >
@@ -5366,10 +6557,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5380,10 +6571,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -5438,9 +6629,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478603">
+            <tr class="" id="team:478602">
               <td class="scorepl">
-                33
+                41
               </td>
               <td class="scoreaf">
                 <a >
@@ -5456,10 +6647,10 @@ export default function template(this: BapcView) {
                        title="Universiteit van Amsterdam">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="ICE">
+              <td class="scoretn cl_FFFFFF" title="jsr $FFBD">
                 <a  >
                     <span class="forceWidth">
-                                                ICE
+                                                jsr $FFBD
                     </span>
                   <span class="univ forceWidth">
                                                             Universiteit van Amsterdam
@@ -5467,7 +6658,7 @@ export default function template(this: BapcView) {
                 </a>
               </td>
               <td class="scorenc">5</td>
-              <td class="scorett">988</td>
+              <td class="scorett">920</td>
 
 
 
@@ -5482,41 +6673,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    237
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    228
-                    <span>
-                                                                                    8 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    169
+                    262
                     <span>
                                                                                     3 tries
                                                                             </span>
@@ -5528,6 +6685,14 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    162
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
               </td>
 
 
@@ -5535,10 +6700,24 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_correct">
+                    225
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5548,14 +6727,6 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    41
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
               </td>
 
 
@@ -5563,10 +6734,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    7 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5578,9 +6749,184 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    33
+                    18
                     <span>
-                                                                                    3 tries
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    73
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478968">
+              <td class="scorepl">
+                42
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Binary Beasts">
+                <a  >
+                    <span class="forceWidth">
+                                                Binary Beasts
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Delft University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">5</td>
+              <td class="scorett">1021</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct score_first">
+                    43
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    184
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    9 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    18
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    278
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    298
+                    <span>
+                                                                                    7 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5595,7 +6941,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:479080">
               <td class="scorepl">
-                34
+                43
               </td>
               <td class="scoreaf">
                 <a >
@@ -5732,156 +7078,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:476895">
-              <td class="scorepl">
-                35
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
-                       title="Radboud University">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Nameless team">
-                <a  >
-                    <span class="forceWidth">
-                                                Nameless team
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Radboud University
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">4</td>
-              <td class="scorett">317</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    51
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    6 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    25
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    139
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    42
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:479844">
               <td class="scorepl">
-                36
+                44
               </td>
               <td class="scoreaf">
                 <a >
@@ -5922,10 +7121,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -5976,10 +7175,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -6026,303 +7225,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:476640">
+            <tr class="" id="team:479242">
               <td class="scorepl">
-                37
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/7.png?v=7.3.2" alt="University of Twente"
-                       title="University of Twente">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Dispuut Yorinf - Heren 1">
-                <a  >
-                    <span class="forceWidth">
-                                                Dispuut Yorinf - Heren 1
-                    </span>
-                  <span class="univ forceWidth">
-                                                            University of Twente
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">4</td>
-              <td class="scorett">329</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    130
-                    <span>
-                                                                                    4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    28
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    8 + 4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    18
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    3 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    53
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:476933">
-              <td class="scorepl">
-                38
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/5.png?v=7.3.2" alt="Radboud University"
-                       title="Radboud University">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="beep boop ben robot">
-                <a  >
-                    <span class="forceWidth">
-                                                beep boop ben robot
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Radboud University
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">4</td>
-              <td class="scorett">379</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    57
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    170
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    17
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    35
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:479082">
-              <td class="scorepl">
-                39
+                45
               </td>
               <td class="scoreaf">
                 <a >
@@ -6338,10 +7243,10 @@ export default function template(this: BapcView) {
                        title="Eindhoven University of Technology">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="M^3">
+              <td class="scoretn cl_FFFFFF" title="Team David en Geert">
                 <a  >
                     <span class="forceWidth">
-                                                M^3
+                                                Team David en Geert
                     </span>
                   <span class="univ forceWidth">
                                                             Eindhoven University of Technology
@@ -6349,14 +7254,8 @@ export default function template(this: BapcView) {
                 </a>
               </td>
               <td class="scorenc">4</td>
-              <td class="scorett">382</td>
+              <td class="scorett">393</td>
 
-
-
-
-
-              <td class="score_cell">
-              </td>
 
 
 
@@ -6370,9 +7269,9 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    55
+                    240
                     <span>
-                                                                                    2 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6382,152 +7281,11 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    85
+                    50
                     <span>
                                                                                     1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_incorrect">
-                    &nbsp;
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    7
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    75
-                    <span>
-                                                                                    8 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:478967">
-              <td class="scorepl">
-                40
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="camel_case">
-                <a  >
-                    <span class="forceWidth">
-                                                camel_case
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Delft University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">4</td>
-              <td class="scorett">395</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    183
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    52
-                    <span>
-                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6564,10 +7322,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    3 + 4 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6579,37 +7337,29 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    14
+                    12
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    31
                     <span>
                                                                                     1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    46
-                    <span>
-                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6624,7 +7374,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478818">
               <td class="scorepl">
-                41
+                46
               </td>
               <td class="scoreaf">
                 <a >
@@ -6739,10 +7489,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    2 + 6 tries
+                                                                                    8 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6771,7 +7521,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478817">
               <td class="scorepl">
-                42
+                47
               </td>
               <td class="scoreaf">
                 <a >
@@ -6858,10 +7608,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    4 + 4 tries
+                                                                                    8 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6886,10 +7636,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 5 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -6916,319 +7666,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478962">
-              <td class="scorepl">
-                43
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Codebeukers">
-                <a  >
-                    <span class="forceWidth">
-                                                Codebeukers
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Delft University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">4</td>
-              <td class="scorett">442</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    58
-                    <span>
-                                                                                    6 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    208
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    13
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    43
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:478301">
-              <td class="scorepl">
-                44
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/9.png?v=7.3.2" alt="Utrecht University"
-                       title="Utrecht University">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="🤔👨‍💻👨‍💻👨‍💻😕">
-                <a  >
-                    <span class="forceWidth">
-                                                🤔👨‍💻👨‍💻👨‍💻😕
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Utrecht University
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">4</td>
-              <td class="scorett">458</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    127
-                    <span>
-                                                                                    5 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    131
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_incorrect">
-                    &nbsp;
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    19
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    61
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:479083">
               <td class="scorepl">
-                45
+                48
               </td>
               <td class="scoreaf">
                 <a >
@@ -7269,10 +7709,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    2 + 2 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7303,10 +7743,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    9 + 5 tries
+                                                                                    14 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7383,7 +7823,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478981">
               <td class="scorepl">
-                46
+                49
               </td>
               <td class="scoreaf">
                 <a >
@@ -7458,10 +7898,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 3 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7472,10 +7912,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    4 + 4 tries
+                                                                                    8 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7528,9 +7968,148 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
+            <tr class="" id="team:479224">
+              <td class="scorepl">
+                50
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/8.png?v=7.3.2" alt="Eindhoven University of Technology"
+                       title="Eindhoven University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Team Davit en Geerd">
+                <a  >
+                    <span class="forceWidth">
+                                                Team Davit en Geerd
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Eindhoven University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">4</td>
+              <td class="scorett">541</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    74
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    257
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    11
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    59
+                    <span>
+                                                                                    4 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
             <tr class="" id="team:476900">
               <td class="scorepl">
-                47
+                51
               </td>
               <td class="scoreaf">
                 <a >
@@ -7605,10 +8184,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 5 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7677,7 +8256,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478582">
               <td class="scorepl">
-                48
+                52
               </td>
               <td class="scoreaf">
                 <a >
@@ -7718,10 +8297,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 4 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7814,9 +8393,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478602">
+            <tr class="" id="team:478970">
               <td class="scorepl">
-                49
+                53
               </td>
               <td class="scoreaf">
                 <a >
@@ -7828,22 +8407,22 @@ export default function template(this: BapcView) {
               <td class="scoreaf">
                 <a >
                   <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
-                       title="Universiteit van Amsterdam">
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
                 </a>
               </td>
-              <td class="scoretn cl_FFFFFF" title="jsr $FFBD">
+              <td class="scoretn cl_FFFFFF" title="The Y(ee)T Crowd">
                 <a  >
                     <span class="forceWidth">
-                                                jsr $FFBD
+                                                The Y(ee)T Crowd
                     </span>
                   <span class="univ forceWidth">
-                                                            Universiteit van Amsterdam
+                                                            Delft University of Technology
                                                     </span>
                 </a>
               </td>
               <td class="scorenc">4</td>
-              <td class="scorett">618</td>
+              <td class="scorett">589</td>
 
 
 
@@ -7857,10 +8436,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 2 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7872,9 +8451,9 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    162
+                    46
                     <span>
-                                                                                    5 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7885,24 +8464,24 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_correct">
-                    225
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 5 tries
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    8 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7922,7 +8501,7 @@ export default function template(this: BapcView) {
                   <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    7 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7934,7 +8513,7 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    18
+                    11
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -7947,10 +8526,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    256
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    10 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7962,9 +8541,164 @@ export default function template(this: BapcView) {
               <td class="score_cell">
                 <a >
                   <div class="score_correct">
-                    73
+                    16
                     <span>
-                                                                                    4 tries
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:475938">
+              <td class="scorepl">
+                54
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/7.png?v=7.3.2" alt="University of Twente"
+                       title="University of Twente">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Mokers">
+                <a  >
+                    <span class="forceWidth">
+                                                Mokers
+                    </span>
+                  <span class="univ forceWidth">
+                                                            University of Twente
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">4</td>
+              <td class="scorett">602</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    47
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    264
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    6 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    14
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    117
+                    <span>
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -7979,7 +8713,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478972">
               <td class="scorepl">
-                50
+                55
               </td>
               <td class="scoreaf">
                 <a >
@@ -8054,10 +8788,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    3 + 1 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8116,9 +8850,156 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
+            <tr class="" id="team:478973">
+              <td class="scorepl">
+                56
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
+                       title="Delft University of Technology">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Barbatos">
+                <a  >
+                    <span class="forceWidth">
+                                                Barbatos
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Delft University of Technology
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">4</td>
+              <td class="scorett">922</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    274
+                    <span>
+                                                                                    5 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    110
+                    <span>
+                                                                                    7 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    8 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    55
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    143
+                    <span>
+                                                                                    8 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
             <tr class="" id="team:478300">
               <td class="scorepl">
-                51
+                57
               </td>
               <td class="scoreaf">
                 <a >
@@ -8159,10 +9040,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -8221,10 +9102,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    4 + 1 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8249,149 +9130,8 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
-                    <span>
-                                                                                    1 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    11
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:479242">
-              <td class="scorepl">
-                52
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/8.png?v=7.3.2" alt="Eindhoven University of Technology"
-                       title="Eindhoven University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Team David en Geert">
-                <a  >
-                    <span class="forceWidth">
-                                                Team David en Geert
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Eindhoven University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">3</td>
-              <td class="scorett">113</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    50
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    3 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    12
                     <span>
                                                                                     2 tries
                                                                             </span>
@@ -8403,188 +9143,11 @@ export default function template(this: BapcView) {
 
 
               <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    31
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:478970">
-              <td class="scorepl">
-                53
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="The Y(ee)T Crowd">
-                <a  >
-                    <span class="forceWidth">
-                                                The Y(ee)T Crowd
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Delft University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">3</td>
-              <td class="scorett">153</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    3 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    46
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_incorrect">
-                    &nbsp;
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    6 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_incorrect">
-                    &nbsp;
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
                 <a >
                   <div class="score_correct">
                     11
                     <span>
                                                                                     1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    5 + 5 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    16
-                    <span>
-                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -8599,7 +9162,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:479077">
               <td class="scorepl">
-                54
+                58
               </td>
               <td class="scoreaf">
                 <a >
@@ -8728,303 +9291,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:475938">
-              <td class="scorepl">
-                55
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/7.png?v=7.3.2" alt="University of Twente"
-                       title="University of Twente">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Mokers">
-                <a  >
-                    <span class="forceWidth">
-                                                Mokers
-                    </span>
-                  <span class="univ forceWidth">
-                                                            University of Twente
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">3</td>
-              <td class="scorett">258</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    47
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    3 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    14
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    117
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:479224">
-              <td class="scorepl">
-                56
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/8.png?v=7.3.2" alt="Eindhoven University of Technology"
-                       title="Eindhoven University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Team Davit en Geerd">
-                <a  >
-                    <span class="forceWidth">
-                                                Team Davit en Geerd
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Eindhoven University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">3</td>
-              <td class="scorett">264</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    74
-                    <span>
-                                                                                    4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    3 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    11
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    59
-                    <span>
-                                                                                    4 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:479845">
               <td class="scorepl">
-                57
+                59
               </td>
               <td class="scoreaf">
                 <a >
@@ -9059,10 +9328,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 4 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9151,10 +9420,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 1 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9163,7 +9432,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478824">
               <td class="scorepl">
-                58
+                60
               </td>
               <td class="scoreaf">
                 <a >
@@ -9204,10 +9473,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -9238,10 +9507,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9300,156 +9569,9 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478968">
-              <td class="scorepl">
-                59
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Binary Beasts">
-                <a  >
-                    <span class="forceWidth">
-                                                Binary Beasts
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Delft University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">3</td>
-              <td class="scorett">325</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct score_first">
-                    43
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    184
-                    <span>
-                                                                                    5 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    7 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    18
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    5 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:478574">
               <td class="scorepl">
-                60
+                61
               </td>
               <td class="scoreaf">
                 <a >
@@ -9516,10 +9638,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -9588,7 +9710,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:477053">
               <td class="scorepl">
-                61
+                62
               </td>
               <td class="scoreaf">
                 <a >
@@ -9629,10 +9751,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    4 + 1 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9663,10 +9785,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    4 + 2 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9725,153 +9847,6 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478973">
-              <td class="scorepl">
-                62
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/4.png?v=7.3.2" alt="Delft University of Technology"
-                       title="Delft University of Technology">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Barbatos">
-                <a  >
-                    <span class="forceWidth">
-                                                Barbatos
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Delft University of Technology
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">3</td>
-              <td class="scorett">568</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    110
-                    <span>
-                                                                                    7 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_incorrect">
-                    &nbsp;
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    3 + 5 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    55
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    143
-                    <span>
-                                                                                    8 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
             <tr class="" id="team:478825">
               <td class="scorepl">
                 63
@@ -9900,8 +9875,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">2</td>
-              <td class="scorett">83</td>
+              <td class="scorenc">3</td>
+              <td class="scorett">466</td>
 
 
 
@@ -9929,10 +9904,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    283
                     <span>
-                                                                                    5 + 1 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -9969,10 +9944,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -10019,9 +9994,410 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:478604">
+            <tr class="" id="team:478609">
               <td class="scorepl">
                 64
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
+                       title="Universiteit van Amsterdam">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="Ketel 1">
+                <a  >
+                    <span class="forceWidth">
+                                                Ketel 1
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Universiteit van Amsterdam
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">3</td>
+              <td class="scorett">554</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    126
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    15
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    273
+                    <span>
+                                                                                    8 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478605">
+              <td class="scorepl">
+                65
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
+                       title="Netherlands">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
+                       title="Universiteit van Amsterdam">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="console.log(teamNaam)">
+                <a  >
+                    <span class="forceWidth">
+                                                console.log(teamNaam)
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Universiteit van Amsterdam
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">3</td>
+              <td class="scorett">578</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    239
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    254
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    25
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    7 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478819">
+              <td class="scorepl">
+                66
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="countryflag"
+                       src="/images/countries/BEL.png?v=7.3.2" alt="Belgium"
+                       title="Belgium">
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/2.png?v=7.3.2" alt="Université Catholique de Louvain"
+                       title="Université Catholique de Louvain">
+                </a>
+              </td>
+              <td class="scoretn cl_FFFFFF" title="CodeWe">
+                <a  >
+                    <span class="forceWidth">
+                                                CodeWe
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Université Catholique de Louvain
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">3</td>
+              <td class="scorett">844</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    296
+                    <span>
+                                                                                    12 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    17
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    211
+                    <span>
+                                                                                    6 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:478604">
+              <td class="scorepl">
+                67
               </td>
               <td class="scoreaf">
                 <a >
@@ -10134,141 +10510,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    2 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:478609">
-              <td class="scorepl">
-                65
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
-                       title="Universiteit van Amsterdam">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="Ketel 1">
-                <a  >
-                    <span class="forceWidth">
-                                                Ketel 1
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Universiteit van Amsterdam
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">2</td>
-              <td class="scorett">141</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    126
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    15
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    6 + 2 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10283,7 +10528,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:477848">
               <td class="scorepl">
-                66
+                68
               </td>
               <td class="scoreaf">
                 <a >
@@ -10318,10 +10563,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    3 + 2 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10366,10 +10611,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -10438,7 +10683,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:476897">
               <td class="scorepl">
-                67
+                69
               </td>
               <td class="scoreaf">
                 <a >
@@ -10535,10 +10780,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10549,10 +10794,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -10601,7 +10846,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478575">
               <td class="scorepl">
-                68
+                70
               </td>
               <td class="scoreaf">
                 <a >
@@ -10688,10 +10933,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 1 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10722,10 +10967,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    3 + 1 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10740,7 +10985,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:477348">
               <td class="scorepl">
-                69
+                71
               </td>
               <td class="scoreaf">
                 <a >
@@ -10807,10 +11052,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 2 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -10879,7 +11124,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478610">
               <td class="scorepl">
-                70
+                72
               </td>
               <td class="scoreaf">
                 <a >
@@ -10920,10 +11165,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -11018,7 +11263,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:478826">
               <td class="scorepl">
-                71
+                73
               </td>
               <td class="scoreaf">
                 <a >
@@ -11139,278 +11384,8 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
-                    <span>
-                                                                                    5 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:478605">
-              <td class="scorepl">
-                72
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/NLD.png?v=7.3.2" alt="Netherlands"
-                       title="Netherlands">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/6.png?v=7.3.2" alt="Universiteit van Amsterdam"
-                       title="Universiteit van Amsterdam">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="console.log(teamNaam)">
-                <a  >
-                    <span class="forceWidth">
-                                                console.log(teamNaam)
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Universiteit van Amsterdam
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">2</td>
-              <td class="scorett">304</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    239
-                    <span>
-                                                                                    3 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    1 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    25
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    5 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:478819">
-              <td class="scorepl">
-                73
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="countryflag"
-                       src="/images/countries/BEL.png?v=7.3.2" alt="Belgium"
-                       title="Belgium">
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/2.png?v=7.3.2" alt="Université Catholique de Louvain"
-                       title="Université Catholique de Louvain">
-                </a>
-              </td>
-              <td class="scoretn cl_FFFFFF" title="CodeWe">
-                <a  >
-                    <span class="forceWidth">
-                                                CodeWe
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Université Catholique de Louvain
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">2</td>
-              <td class="scorett">328</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    7 + 5 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    17
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    211
                     <span>
                                                                                     6 tries
                                                                             </span>
@@ -11468,10 +11443,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -11548,10 +11523,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    5 + 4 tries
+                                                                                    9 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11752,10 +11727,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    7 + 1 tries
+                                                                                    8 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11810,10 +11785,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    8 + 1 tries
+                                                                                    9 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11869,10 +11844,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 3 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11911,10 +11886,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    3 + 2 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -11957,10 +11932,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 6 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13258,26 +13233,26 @@ export default function template(this: BapcView) {
             <tr style="border-top: 2px solid black;">
               <td id="scoresummary" title="Summary" colspan="4">Summary</td>
               <td title="total solved" class="scorenc">
-                346
+                392
               </td>
               <td></td>
               <td style="text-align: left;">
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                1
+                                2
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                13
+                                38
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                27
+                                0
                             </span>
                   <br/>
 
@@ -13291,19 +13266,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                33
+                                45
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                80
+                                123
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                56
+                                0
                             </span>
                   <br/>
 
@@ -13317,19 +13292,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                69
+                                72
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                195
+                                200
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                8
+                                0
                             </span>
                   <br/>
 
@@ -13343,19 +13318,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                6
+                                10
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                36
+                                72
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                40
+                                0
                             </span>
                   <br/>
 
@@ -13369,19 +13344,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                39
+                                43
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                109
+                                168
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                63
+                                0
                             </span>
                   <br/>
 
@@ -13395,19 +13370,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                10
+                                15
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                17
+                                45
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                34
+                                0
                             </span>
                   <br/>
 
@@ -13421,19 +13396,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                22
+                                25
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                61
+                                87
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                29
+                                0
                             </span>
                   <br/>
 
@@ -13473,19 +13448,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                25
+                                35
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                51
+                                76
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                39
+                                0
                             </span>
                   <br/>
 
@@ -13499,19 +13474,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                64
+                                66
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                201
+                                221
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                22
+                                0
                             </span>
                   <br/>
 
@@ -13525,25 +13500,25 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                0
+                                2
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                2
+                                9
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                10
+                                0
                             </span>
                   <br/>
 
                   <i class="fas fa-clock fa-fw"></i>
                   <span style="font-size:90%;" title="first solved">
-                                                            n/a
+                                                            243min
                                                     </span>
                 </a>
               </td>
@@ -13577,8 +13552,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">9</td>
-              <td class="scorett">904</td>
+              <td class="scorenc">11</td>
+              <td class="scorett">1456</td>
 
 
 
@@ -13628,10 +13603,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    270
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13726,10 +13701,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    262
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -13761,8 +13736,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">9</td>
-              <td class="scorett">958</td>
+              <td class="scorenc">10</td>
+              <td class="scorett">1355</td>
 
 
 
@@ -13812,10 +13787,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    297
                     <span>
-                                                                                    4 + 2 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13840,10 +13815,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 3 tries
+                                                                                    3 tries
                                                                             </span>
                   </div>
                 </a>
@@ -13945,8 +13920,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">8</td>
-              <td class="scorett">737</td>
+              <td class="scorenc">9</td>
+              <td class="scorett">1046</td>
 
 
 
@@ -13988,10 +13963,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    289
                     <span>
-                                                                                    1 + 1 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14113,8 +14088,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">7</td>
-              <td class="scorett">654</td>
+              <td class="scorenc">8</td>
+              <td class="scorett">954</td>
 
 
 
@@ -14156,10 +14131,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    3 + 2 tries
+                                                                                    5 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14226,10 +14201,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    240
                     <span>
-                                                                                    3 + 1 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14281,8 +14256,8 @@ export default function template(this: BapcView) {
                                                     </span>
                 </a>
               </td>
-              <td class="scorenc">6</td>
-              <td class="scorett">402</td>
+              <td class="scorenc">7</td>
+              <td class="scorett">792</td>
 
 
 
@@ -14296,10 +14271,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
-                    &nbsp;
+                  <div class="score_correct">
+                    270
                     <span>
-                                                                                    5 + 2 tries
+                                                                                    7 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14352,10 +14327,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 1 tries
+                                                                                    1 try
                                                                             </span>
                   </div>
                 </a>
@@ -14424,9 +14399,161 @@ export default function template(this: BapcView) {
               </td>
             </tr>
 
-            <tr class="" id="team:479847">
+            <tr class="" id="team:479850">
               <td class="scorepl">
                 6
+              </td>
+              <td class="scoreaf">
+                <a >
+                </a>
+              </td>
+              <td class="scoreaf">
+                <a >
+                  <img loading="lazy" class="affiliation-logo"
+                       src="/images/affiliations/17.png?v=7.3.2" alt="Dassault Systèmes"
+                       title="Dassault Systèmes">
+                </a>
+              </td>
+              <td class="scoretn cl_ffcc33" title="Dassault Systèmes - DELMIA Quintiq - The Laundry Team">
+                <a  >
+                    <span class="forceWidth">
+                                                Dassault Systèmes - DELMIA Quintiq - The Laundry Team
+                    </span>
+                  <span class="univ forceWidth">
+                                                            Dassault Systèmes
+                                                    </span>
+                </a>
+              </td>
+              <td class="scorenc">6</td>
+              <td class="scorett">853</td>
+
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_incorrect">
+                    &nbsp;
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    44
+                    <span>
+                                                                                    2 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    267
+                    <span>
+                                                                                    3 tries
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    253
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    200
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    10
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+
+
+
+
+              <td class="score_cell">
+                <a >
+                  <div class="score_correct">
+                    19
+                    <span>
+                                                                                    1 try
+                                                                            </span>
+                  </div>
+                </a>
+              </td>
+
+
+
+
+              <td class="score_cell">
+              </td>
+            </tr>
+
+            <tr class="" id="team:479847">
+              <td class="scorepl">
+                7
               </td>
               <td class="scoreaf">
                 <a >
@@ -14570,7 +14697,7 @@ export default function template(this: BapcView) {
 
             <tr class="" id="team:479854">
               <td class="scorepl">
-                7
+                8
               </td>
               <td class="scoreaf">
                 <a >
@@ -14636,10 +14763,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    1 + 5 tries
+                                                                                    6 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14670,10 +14797,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    0 + 2 tries
+                                                                                    2 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14714,158 +14841,6 @@ export default function template(this: BapcView) {
                 <a >
                   <div class="score_correct">
                     25
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-            </tr>
-
-            <tr class="" id="team:479850">
-              <td class="scorepl">
-                8
-              </td>
-              <td class="scoreaf">
-                <a >
-                </a>
-              </td>
-              <td class="scoreaf">
-                <a >
-                  <img loading="lazy" class="affiliation-logo"
-                       src="/images/affiliations/17.png?v=7.3.2" alt="Dassault Systèmes"
-                       title="Dassault Systèmes">
-                </a>
-              </td>
-              <td class="scoretn cl_ffcc33" title="Dassault Systèmes - DELMIA Quintiq - The Laundry Team">
-                <a  >
-                    <span class="forceWidth">
-                                                Dassault Systèmes - DELMIA Quintiq - The Laundry Team
-                    </span>
-                  <span class="univ forceWidth">
-                                                            Dassault Systèmes
-                                                    </span>
-                </a>
-              </td>
-              <td class="scorenc">4</td>
-              <td class="scorett">293</td>
-
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    44
-                    <span>
-                                                                                    2 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    2 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_pending">
-                    &nbsp;
-                    <span>
-                                                                                    0 + 1 tries
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    200
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    10
-                    <span>
-                                                                                    1 try
-                                                                            </span>
-                  </div>
-                </a>
-              </td>
-
-
-
-
-              <td class="score_cell">
-              </td>
-
-
-
-
-              <td class="score_cell">
-                <a >
-                  <div class="score_correct">
-                    19
                     <span>
                                                                                     1 try
                                                                             </span>
@@ -14966,10 +14941,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    2 + 2 tries
+                                                                                    4 tries
                                                                             </span>
                   </div>
                 </a>
@@ -14994,10 +14969,10 @@ export default function template(this: BapcView) {
 
               <td class="score_cell">
                 <a >
-                  <div class="score_pending">
+                  <div class="score_incorrect">
                     &nbsp;
                     <span>
-                                                                                    6 + 1 tries
+                                                                                    7 tries
                                                                             </span>
                   </div>
                 </a>
@@ -15027,7 +15002,7 @@ export default function template(this: BapcView) {
             <tr style="border-top: 2px solid black;">
               <td id="scoresummary" title="Summary" colspan="4">Summary</td>
               <td title="total solved" class="scorenc">
-                59
+                67
               </td>
               <td></td>
               <td style="text-align: left;">
@@ -15060,19 +15035,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                7
+                                8
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                13
+                                15
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                3
+                                0
                             </span>
                   <br/>
 
@@ -15112,19 +15087,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                1
+                                4
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                9
+                                18
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                12
+                                0
                             </span>
                   <br/>
 
@@ -15138,7 +15113,7 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                7
+                                8
                             </span>
                   <br/>
 
@@ -15150,7 +15125,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                1
+                                0
                             </span>
                   <br/>
 
@@ -15164,19 +15139,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                3
+                                4
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                0
+                                4
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                5
+                                0
                             </span>
                   <br/>
 
@@ -15196,13 +15171,13 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                15
+                                19
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                4
+                                0
                             </span>
                   <br/>
 
@@ -15242,19 +15217,19 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                5
+                                6
                             </span>
                   <br/>
 
                   <i class="fas fa-thumbs-down fa-fw"></i>
                   <span style="font-size:90%;" title="number of rejected submissions">
-                                10
+                                11
                             </span>
                   <br/>
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                2
+                                0
                             </span>
                   <br/>
 
@@ -15294,7 +15269,7 @@ export default function template(this: BapcView) {
                 <a >
                   <i class="fas fa-thumbs-up fa-fw"></i>
                   <span style="font-size:90%;" title="number of accepted submissions">
-                                1
+                                2
                             </span>
                   <br/>
 
@@ -15306,7 +15281,7 @@ export default function template(this: BapcView) {
 
                   <i class="fas fa-question-circle fa-fw"></i>
                   <span style="font-size:90%;" title="number of pending submissions">
-                                1
+                                0
                             </span>
                   <br/>
 
@@ -15369,8 +15344,9 @@ export default function template(this: BapcView) {
             </tbody>
           </table>
 
+
           <p id="lastmod">
-            Last Update: Sat 12 Dec 2020 17:03:33 CET<br/>
+            Last Update: Sat 12 Dec 2020 18:42:59 CET<br/>
             using <a href="https://www.domjudge.org/" target="_top">DOMjudge</a>
           </p>
 
