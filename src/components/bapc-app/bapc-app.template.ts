@@ -31,7 +31,8 @@ export default function template(this: BapcApp) {
     <organisation-view class="page" ?active="${this._page === 'organisation'}"></organisation-view>
     <contact-view class="page" ?active="${this._page === 'contact'}"></contact-view>
     <scoreboard-prelim class="page" ?active="${this._page === 'scoreboard-preliminaries'}"></scoreboard-prelim>
-
+    <scoreboard-bapc class="page" ?active="${this._page === 'scoreboard'}"></scoreboard-bapc>
+    <problems-view class="page" ?active="${this._page === 'problems'}"></problems-view>
       <my-view404 class="page" ?active="${this._page === 'view404'}"></my-view404>
     </main>
 
