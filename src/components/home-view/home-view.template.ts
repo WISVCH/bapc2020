@@ -19,6 +19,8 @@ export default function template(this: BapcView) {
     <section>
     <h1>News</h1>
       <hr>
+      <h3>Scoreboard an Livestream</h3>
+      <p>The BAPC 2020 is about to begin and we are ready for a great day. You can follow the <a href="https://chipcie.ch.tudelft.nl/public" target="_blank">scoreboard</a> of the contest. It is also possible to follow the live stream <a href="https://youtu.be/wfUd_kXtsYs" target="_blank">here</a>, which will include the opening ceremony, the jury presentation and the award ceremony. If you want to try the problems yourself you can still join the <a href="https://spectator.bapc.eu/public" target="_blank">spectator contest</a>.<br/><small>posted: 12th of December by the BAPC Organisation</small></p><hr>
       <h3>Compiler versions published</h3>
       <p>The versions of the compilers and runtime have been published on the <a href="https://2020.bapc.eu/system">Systems page</a>. <br/><small>posted: 10th of December by the BAPC Organisation</small></p>
     <hr>
