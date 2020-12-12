@@ -77,6 +77,12 @@ const loadPage: ActionCreator<ThunkResult> = (page: string) => (dispatch) => {
     case 'scoreboard-preliminaries':
       import('../components/scoreboard-prelim/scoreboard-prelim').then();
       break;
+    case 'scoreboard':
+      import('../components/scoreboard-bapc/scoreboard-bapc').then();
+      break;
+    case 'problems':
+      import('../components/problems-view/problems-view.component').then();
+      break;
     default:
       page = 'view404';
       import('../components/my-view404/my-view404.component');

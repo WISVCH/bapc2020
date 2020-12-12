@@ -38,11 +38,11 @@ header {
   background-position-y: center;
 }
 
-.contest, .scoreboard-preliminaries {
+.contest, .scoreboard-preliminaries, .scoreboard {
   background-image: url("/images/contest.jpg");
 }
 
-.home {
+.home, .view404 {
   background-image: url("/images/home.jpg");
 }
 
@@ -62,7 +62,7 @@ header {
   background-image: url("/images/preliminaries.jpg");
 }
 
-.schedule {
+.schedule, .problems {
   background-image: url("/images/schedule.jpg");
 }
 
