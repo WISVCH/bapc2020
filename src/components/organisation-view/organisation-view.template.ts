@@ -12,7 +12,7 @@ export default function template(this: BapcView) {
       <li>Raoul Bruens</li>
       <li>Alves Marinov</li>
       <li>Nadyne Aretz</li>
-      <li>Yoshi van den Acker</li>
+      <li>Yoshi van den Akker</li>
       <li>Jaden Nierop</li>
       <li>Chris van der Werf</li>
       <li>Joey Haas</li>
