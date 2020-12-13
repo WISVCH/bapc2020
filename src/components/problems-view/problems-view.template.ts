@@ -23,7 +23,7 @@ export default function template(this: BapcView) {
     </section>
     <section>
       <h2>Jury BAPC 2020</h2>
-      <p>The BAPC 2020 jury consited of</p>
+      <p>The BAPC 2020 jury consisted of:</p>
       <ul>
         <li>Ruben Brokkelkamp</li>
         <li>Daan van Gent</li>
