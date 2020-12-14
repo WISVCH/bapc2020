@@ -16,12 +16,12 @@ export default function template(this: BapcView) {
     </section>
     <section>
       <h1>Company Teams</h1>
-      The following company teams are competing
+      <p>The following company teams are competing:</p>
       <ul>
         <li>CWI</li>
         <li>bol.com</li>
         <li>Dassault Systemes</li>
-        <li>ORTECT</li>
+        <li>ORTEC</li>
         <li>ASML</li>
       </ul>
     </section>
