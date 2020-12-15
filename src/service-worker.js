@@ -26,3 +26,6 @@ workbox.routing.registerRoute(
       cacheName: 'images'
     }),
 );
+workbox.routing.registerRoute(/.*/,
+    new workbox.strategies.StaleWhileRevalidate()
+)
