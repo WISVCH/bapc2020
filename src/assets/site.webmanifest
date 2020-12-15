@@ -1,10 +1,10 @@
 {
   "name": "Benelux Algorithm Programming Contest 2020",
   "short_name": "BAPC 2020",
-  "description": "BAPC 2020...",
+  "description": "The BAPC 2020 website with the latest news, problemset and results",
   "start_url": "/",
   "display": "standalone",
-  "theme_color": "#216F21",
+  "theme_color": "#f7941d",
   "background_color": "#FFFFFF",
   "icons": [
     {

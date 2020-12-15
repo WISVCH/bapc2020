@@ -569,3 +569,44 @@ h3.teamoverview {
 .problem-stats-item.frozen-9 {
   background-color: #05264c;
 }
+
+.cl_FFFFFF {
+  background-color: #FFFFFF;
+}
+
+
+.cl_FFFFFF .forceWidth.toolong:after {
+  background: linear-gradient(to right,
+      rgba(255,255,255,0) 0%,
+      rgba(255,255,255,1) 96%);
+}
+
+.cl_ffcc33 {
+  background-color: #ffcc33;
+}
+
+
+.cl_ffcc33 .forceWidth.toolong:after {
+  background: linear-gradient(to right,
+      rgba(255,204,51,0) 0%,
+      rgba(255,204,51,1) 96%);
+}
+
+.badge.badge-warning {
+  margin-right: 2em;
+  font-weight: 400;
+  color: #212529;
+  background-color: #FFC107;
+  border-radius: 0.25rem;
+  padding: .25em .4em;
+  display: inline-block;
+  font-size: 75%;
+  line-height: 1;
+}
+
+$fa-font-path: '~@fortawesome/fontawesome-free/webfonts';
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+

@@ -88,7 +88,11 @@ const config: webpack.Configuration = {
             }
           }
         ]
-      }
+      },
+      { test: /\.(woff(2)?|ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: "file-loader", options: {
+        outputPath: "~@fortawesome/fontawesome-free/webfonts/",
+        name: "[name].[ext]"
+        } }
     ],
   },
   plugins: [
