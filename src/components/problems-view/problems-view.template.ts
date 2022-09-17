@@ -7,18 +7,18 @@ export default function template(this: BapcView) {
       <h2>BAPC 2020 Problems</h2>
       <p>The following files are available:</p>
         <ul>
-          <li><a href="http://commissies.ch.tudelft.nl/chipcie/archief/2020/bapc/problemset.pdf" target="_blank">Problem Set</a></li>
-          <li><a href="http://commissies.ch.tudelft.nl/chipcie/archief/2020/bapc/solutions.zip" target="_blank">Reference solutions and input/out</a></li>
-          <li><a href="http://commissies.ch.tudelft.nl/chipcie/archief/2020/bapc/solutions.pdf" target="_blank">Solution Presentations</a></li>
+          <li><a href="https://commissies.ch.tudelft.nl/chipcie/archive/2020/bapc/problemset.pdf" target="_blank">Problem Set</a></li>
+          <li><a href="https://commissies.ch.tudelft.nl/chipcie/archive/2020/bapc/solutions.zip" target="_blank">Reference solutions and input/out</a></li>
+          <li><a href="https://commissies.ch.tudelft.nl/chipcie/archive/2020/bapc/solutions.pdf" target="_blank">Solution Presentations</a></li>
         </ul>
     </section>
     <section>
       <h2>BAPC 2020 Preliminary Problems</h2>
       <p>The following files are available:</p>
       <ul>
-        <li><a href="http://commissies.ch.tudelft.nl/chipcie/archief/2020/dapc/problemset.pdf" target="_blank">Problems Set</a></li>
-        <li><a href="http://commissies.ch.tudelft.nl/chipcie/archief/2020/dapc/solutions.zip" target="_blank">Reference solutions and input/out</a></li>
-        <li><a href="http://commissies.ch.tudelft.nl/chipcie/archief/2020/dapc/solutions.pdf" target="_blank">Solution Presentations</a></li>
+        <li><a href="https://commissies.ch.tudelft.nl/chipcie/archive/2021/dapc/problemset.pdf" target="_blank">Problems Set</a></li>
+        <li><a href="https://commissies.ch.tudelft.nl/chipcie/archive/2021/dapc/solutions.zip" target="_blank">Reference solutions and input/out</a></li>
+        <li><a href="https://commissies.ch.tudelft.nl/chipcie/archive/2020/dapc/solutions.pdf" target="_blank">Solution Presentations</a></li>
       </ul>
     </section>
     <section>
